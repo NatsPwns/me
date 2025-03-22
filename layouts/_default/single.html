@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <article class="prose prose-invert max-w-3xl mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-2">{{ .Title }}</h1>
+    <p class="text-sm text-gray-400 mb-6">Published on {{ .Date.Format "January 2, 2006" }}</p>
+    {{ .Content }}
+  </article>
+{{ end }}
+

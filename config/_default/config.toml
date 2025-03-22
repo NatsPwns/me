@@ -1,0 +1,52 @@
+publishDir = "docs"
+baseURL = "https://natspwns.github.io/NatsPwns/"
+languageCode = "en-us"
+title = "Natspwns"
+theme = "freshpink"
+
+[[menu.main]]
+name = 'Home'
+url = '/'
+
+
+[[menu.main]]
+name = 'Tags'
+url = '/tags/'
+weight = 20
+
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 30
+
+[[menu.main]]
+name = 'Blog'
+url = '/blog/'
+weight = 40
+
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.116.0"
+
+[params]
+  mainSections = []
+  githubUsername = "natspwns" # your githubUsername
+  author = "Nat"
+  bio = "Cyber explorer 🌸"
+  avatar = "images/your-pic.jpg"     # Add a photo if you'd like
+  favicon = "images/favicon.ico"
+  show_blog = true
+  copyright = "Copyright © 2025 Natspwns. Theme originally by ElecBrandy"
+  
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

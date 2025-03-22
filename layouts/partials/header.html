@@ -1,0 +1,52 @@
+<header class="main-header">
+  <nav>
+      <li>
+        <a href="/" class="theme-glow {{ if .IsHome }}retro-cursor text-pink-400{{ end }}">/{{ .Site.Title }}</a>
+      </li>
+      <li>
+        <a href="/about" class="theme-glow {{ if eq .RelPermalink "/about/" }}retro-cursor text-pink-400{{ end }}">/about</a>
+      </li>
+      <li>
+        <a href="/blog/" class="theme-glow {{ if eq .RelPermalink "/blog/" }}retro-cursor text-pink-400{{ end }}">/blog</a>
+      </li>
+      <li>
+        <a href="/tags/" class="theme-glow {{ if eq .RelPermalink "/tags/" }}retro-cursor text-pink-400{{ end }}">/tags</a>
+      </li>
+      <li id="theme-toggle" class="theme-toggle cursor-pointer">🌚 dark</li>
+    
+  </nav>
+</header>
+
+  </header>
+  
+  <script>
+	document.addEventListener('DOMContentLoaded', function() {
+	  const themeToggle = document.getElementById('theme-toggle');
+	  
+	// Get the current theme from local storage, or use 'light' by default
+	  let currentTheme = localStorage.getItem('theme') || 'light';
+  
+	// Apply the current theme to the page on load
+	  document.body.setAttribute('data-theme', currentTheme);
+	  themeToggle.textContent = currentTheme === 'dark' ? '🌞 light' : '🌚 dark';
+  
+	// Theme toggle function
+	  function toggleTheme() {
+	  // Determine the new theme based on the current theme
+		const newTheme = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+  
+	  // Apply the new theme to the page
+		document.body.setAttribute('data-theme', newTheme);
+  
+  // Save the new theme to local storage
+		localStorage.setItem('theme', newTheme);
+  
+  // Update the button label
+		themeToggle.textContent = newTheme === 'dark' ? '🌞 light' : '🌚 dark';
+	  }
+  
+// Change theme when the toggle button is clicked
+	  themeToggle.addEventListener('click', toggleTheme);
+	});
+  </script>
+  

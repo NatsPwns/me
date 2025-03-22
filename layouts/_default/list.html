@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1 class="text-3xl font-bold mb-6">Posts</h1>
+  <div class="space-y-4">
+    {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="page-link block px-4 py-2 border border-pink-400 rounded hover:bg-pink-500 hover:text-white transition duration-300">
+        {{ .Title }}
+      </a>
+    {{ end }}
+  </div>
+{{ end }}
+
