@@ -1,18 +1,18 @@
 <header class="main-header">
   <nav>
-      <li>
-        <a href="/" class="theme-glow {{ if .IsHome }}retro-cursor text-pink-400{{ end }}">/{{ .Site.Title }}</a>
-      </li>
-      <li>
-        <a href="{{ "about/" | absURL }}" class="theme-glow {{ if eq .RelPermalink "/about/" }}retro-cursor text-pink-400{{ end }}">/about</a>
-      </li>
-      <li>
-        <a href="{{ "blog/" | absURL }}" class="theme-glow {{ if eq .RelPermalink "/blog/" }}retro-cursor text-pink-400{{ end }}">/blog</a>
-      </li>
-      <li>
-        <a href="{{ "tags/" | absURL }}" class="theme-glow {{ if eq .RelPermalink "/tags/" }}retro-cursor text-pink-400{{ end }}">/tags</a>
-      </li>
-      <li id="theme-toggle" class="theme-toggle cursor-pointer">🌚 dark</li>
+    <li>
+      <a href="{{ "/" | absURL }}" class="theme-glow {{ if .IsHome }}retro-cursor text-pink-400{{ end }}">/{{ .Site.Title }}</a>
+    </li>
+    <li>
+      <a href="{{ "/about/" | absURL }}" class="theme-glow {{ if eq .RelPermalink "/about/" }}retro-cursor text-pink-400{{ end }}">/about</a>
+    </li>
+    <li>
+      <a href="{{ "/blog/" | absURL }}" class="theme-glow {{ if eq .RelPermalink "/blog/" }}retro-cursor text-pink-400{{ end }}">/blog</a>
+    </li>
+    <li>
+      <a href="{{ "/tags/" | absURL }}" class="theme-glow {{ if eq .RelPermalink "/tags/" }}retro-cursor text-pink-400{{ end }}">/tags</a>
+    </li>
+    <li id="theme-toggle" class="theme-toggle cursor-pointer">🌚 dark</li>
   </nav>
 </header>
   
