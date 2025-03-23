@@ -1,33 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tags on NatsPwns</title>
-    <link>https://natspwns.github.io/NatsPwns/tags/</link>
-    <description>Recent content in tags on NatsPwns</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://natspwns.github.io/NatsPwns/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tag1</title>
-      <link>https://natspwns.github.io/NatsPwns/tags/tag1/</link>
-      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://natspwns.github.io/NatsPwns/tags/tag1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>tag_a</title>
-      <link>https://natspwns.github.io/NatsPwns/tags/tag_a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://natspwns.github.io/NatsPwns/tags/tag_a/</guid>
-      <description>&lt;h4 id=&#34;-tagstag_a&#34;&gt;🏷️ /tags/tag_a&lt;/h4&gt;&#xA;&lt;hr&gt;</description>
-    </item>
-    <item>
-      <title>tag_b</title>
-      <link>https://natspwns.github.io/NatsPwns/tags/tag_b/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://natspwns.github.io/NatsPwns/tags/tag_b/</guid>
-      <description>&lt;h4 id=&#34;-tagstag_b&#34;&gt;🏷️ /tags/tag_b&lt;/h4&gt;&#xA;&lt;hr&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tags on NatsPwns</title><link>https://natspwns.github.io/me/tags/</link><description>Recent content in tags on NatsPwns</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://natspwns.github.io/me/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Tag1</title><link>https://natspwns.github.io/me/tags/tag1/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://natspwns.github.io/me/tags/tag1/</guid><description/></item><item><title>tag_a</title><link>https://natspwns.github.io/me/tags/tag_a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://natspwns.github.io/me/tags/tag_a/</guid><description>&lt;h4 id="-tagstag_a">🏷️ /tags/tag_a&lt;/h4>
+&lt;hr></description></item><item><title>tag_b</title><link>https://natspwns.github.io/me/tags/tag_b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://natspwns.github.io/me/tags/tag_b/</guid><description>&lt;h4 id="-tagstag_b">🏷️ /tags/tag_b&lt;/h4>
+&lt;hr></description></item></channel></rss>

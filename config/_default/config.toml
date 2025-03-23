@@ -1,10 +1,10 @@
-baseURL = "https://natspwns.github.io/NatsPwns/"
+baseURL = "https://natspwns.github.io/me/"
+publishDir = "docs"
 languageCode = "en-us"
 title = "NatsPwns"
 theme = "freshpink"
-publishDir = "docs"
-relativeURLs = true
-canonifyURLs = true
+
+
 
 
 [[menu.main]]
@@ -39,8 +39,7 @@ weight = 40
   githubUsername = "natspwns" # your githubUsername
   author = "Nat"
   bio = "Cyber explorer 🌸"
-  avatar = "images/your-pic.jpg"     # Add a photo if you'd like
-  favicon = "images/favicon.ico"
+  favicon = "static/favicon.ico"
   show_blog = true
   copyright = "Copyright © 2025 Natspwns. Theme originally by ElecBrandy"
   

@@ -2,15 +2,14 @@
 <meta name="viewport" content="width=device-width">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 
-<!-- Reset first! -->
+<!-- Reset and main styles (hosted in /static/css/) -->
 <link rel="stylesheet" href="{{ "css/reset.css" | relURL }}">
-
-<!-- Main styles -->
-<link rel="stylesheet" href="{{ "css/main.min.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/min700.min.css" | relURL }}" media="(min-width: 700px)">
+<link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/min700.css" | relURL }}" media="(min-width: 700px)">
 
 <!-- Favicon -->
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
+
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,6 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap" rel="stylesheet">
 
+<!-- Extra site-specific styles -->
 <style>
 :root {
   --glow-color: #ec4899;
@@ -55,7 +55,8 @@ body[data-theme="light"] {
   border-right: 2px solid var(--glow-color);
   white-space: nowrap;
   overflow: hidden;
-  width: 0;
+  display: inline-block;
+  max-width: 100%;
   animation: type 2.5s steps(30, end) forwards;
   color: var(--text-color);
   margin-bottom: 1rem;
@@ -112,6 +113,4 @@ nav li a:hover {
   box-shadow: 0 0 5px var(--glow-color), 0 0 10px var(--glow-color);
 }
 </style>
- 
-
 
