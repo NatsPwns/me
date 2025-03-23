@@ -1,22 +1,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 
-<!-- Site title -->
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ printf "%s | %s" .Title .Site.Title }}{{ end }}</title>
-
-<!-- Reset styles -->
+<!-- Reset first! -->
 <link rel="stylesheet" href="{{ "css/reset.css" | relURL }}">
 
-<!-- Main CSS (automatically resolve baseURL issues) -->
+<!-- Main styles -->
 <link rel="stylesheet" href="{{ "css/main.min.css" | relURL }}">
-<link rel="stylesheet" href="{{ "css/min700.min.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/min700.min.css" | relURL }}" media="(min-width: 700px)">
 
 <!-- Favicon -->
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
-
-<!-- Optional partials for any CSS/JS you’ve modularized -->
-{{ partialCached "head/css.html" . }}
-{{ partialCached "head/js.html" . }}
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
