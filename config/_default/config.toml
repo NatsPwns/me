@@ -1,8 +1,11 @@
-publishDir = "docs"
 baseURL = "https://natspwns.github.io/NatsPwns/"
 languageCode = "en-us"
-title = "Natspwns"
+title = "NatsPwns"
 theme = "freshpink"
+publishDir = "docs"
+relativeURLs = true
+canonifyURLs = true
+
 
 [[menu.main]]
 name = 'Home'
