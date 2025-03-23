@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tag1 on NatsPwns</title><link>https://natspwns.github.io/me/tags/tag1/</link><description>Recent content in Tag1 on NatsPwns</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://natspwns.github.io/me/tags/tag1/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello Friend</title><link>https://natspwns.github.io/me/blog/hello-friend/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://natspwns.github.io/me/blog/hello-friend/</guid><description>&lt;p>Finally built my site the right way. ✨&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag1 on NatsPwns</title>
+    <link>https://natspwns.github.io/me/tags/tag1/</link>
+    <description>Recent content in Tag1 on NatsPwns</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://natspwns.github.io/me/tags/tag1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Friend</title>
+      <link>https://natspwns.github.io/me/blog/hello-friend/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://natspwns.github.io/me/blog/hello-friend/</guid>
+      <description>&lt;p&gt;Finally built my site the right way. ✨&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

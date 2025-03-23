@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://natspwns.github.io/me/blog/</loc><lastmod>2025-03-21T00:00:00+00:00</lastmod></url><url><loc>https://natspwns.github.io/me/blog/hello-friend/</loc><lastmod>2025-03-21T00:00:00+00:00</lastmod></url><url><loc>https://natspwns.github.io/me/</loc><lastmod>2025-03-21T00:00:00+00:00</lastmod></url><url><loc>https://natspwns.github.io/me/tags/tag1/</loc><lastmod>2025-03-21T00:00:00+00:00</lastmod></url><url><loc>https://natspwns.github.io/me/tags/</loc><lastmod>2025-03-21T00:00:00+00:00</lastmod></url><url><loc>https://natspwns.github.io/me/about/</loc></url><url><loc>https://natspwns.github.io/me/tags/tag_a/</loc></url><url><loc>https://natspwns.github.io/me/tags/tag_b/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://natspwns.github.io/me/blog/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natspwns.github.io/me/blog/hello-friend/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natspwns.github.io/me/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natspwns.github.io/me/tags/tag1/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natspwns.github.io/me/tags/</loc>
+    <lastmod>2025-03-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://natspwns.github.io/me/about/</loc>
+  </url><url>
+    <loc>https://natspwns.github.io/me/tags/tag_a/</loc>
+  </url><url>
+    <loc>https://natspwns.github.io/me/tags/tag_b/</loc>
+  </url>
+</urlset>
