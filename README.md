@@ -7,8 +7,7 @@ Welcome to my lair on the internet. This is the code powering [my website](https
 This site is:
 - A digital business card (but cooler)
 - My personal playground for cyber/DFIR/OSINT-ish things
-- Also a shrine to pink retro hacker vibes ✨
-- Hosted with 💖 by GitHub Pages
+
 
 ## 🛠 Tech Stack (aka what makes this pink machine run)
 
